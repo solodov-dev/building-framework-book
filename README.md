@@ -1,1 +1,1 @@
-# building-framework-book
+# IDLE frontend framework
