@@ -1,0 +1,27 @@
+{
+  "name": "idle",
+  "version": "1.0.0",
+  "main": "dist/idle.js",
+  "files": [
+    "dist/idle.js"
+  ],
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "jsdom": "^24.1.1",
+    "rollup": "^4.20.0",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-filesize": "^10.0.0",
+    "vitest": "^2.0.5"
+  }
+}
