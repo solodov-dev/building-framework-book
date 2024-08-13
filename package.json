@@ -5,9 +5,12 @@
   "private": true,
   "author": "Andrey Solodov",
   "scripts": {
-    "serve:examples": "npx http-server . -o ./examples/"
+    "serve:examples": "nodemon --exec npx http-server . -o ./examples/"
   },
   "workspaces": [
     "packages/runtime"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
